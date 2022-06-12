@@ -1,5 +1,5 @@
 {
-  "name": "final_project",
+  "name": "billdadventure.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,6 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react-hooks": "^4.5.0",
-    "gh-pages": "^4.0.0",
     "history": "^5.3.0",
     "prettier": "^2.6.2",
     "puppeteer": "^14.1.1",
