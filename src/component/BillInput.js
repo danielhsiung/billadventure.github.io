@@ -49,9 +49,10 @@ export default function BillInput() {
       setAddedBillStatus("pending");
     }
   };
-
+  
   useEffect(() => {
-    if (addedBillStatus != "idle") {
+     
+    if (addedBillStatus !== "idle") {
       try {
         dispatch(
           addedBill({
@@ -78,6 +79,7 @@ export default function BillInput() {
         setAddedBillStatus("idle");
       }
     }
+   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [addedBillStatus]);
 
   return (
